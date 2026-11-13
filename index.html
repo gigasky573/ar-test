@@ -6,6 +6,13 @@
         content="width=device-width, initial-scale=1">
 
   <style>
+    .ar-link {
+      display: flex;
+      justify-content: center;
+      width: fit-content;
+      margin: 0 auto;
+    }
+
     .ar-button {
       position: absolute;
       bottom: 20px;
@@ -55,8 +62,8 @@
       開啟 AR 模式
     </button>
   </model-viewer>
-<a href="./models/object.usdz" rel="ar">
-    <img src="thumbnail.jpg" alt="View in AR">
+<a class="ar-link" href="./models/object.usdz" rel="ar">
+    <img src="./thumbnail.jpg" alt="View in AR">
 </a>
 </body>
 </html>
